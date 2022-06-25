@@ -1,0 +1,873 @@
+2022-04-17 08:09:55 [schedule-pool-3] INFO  c.r.s.s.i.SysLogininforServiceImpl - <0><1515256005259952128> [127.0.0.1]内网IP[admin][Error][验证码错误]
+2022-04-17 08:10:00 [XNIO-1 task-1] INFO  c.r.f.listener.UserActionListener - <0><1515482675032096768> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiSWpIYnl0aGxicGptS2w0OVpRS2EzUkc1YlFsTVREcWIifQ.MlRSbRVG1RUn5m6BmipZc0mMN1jGX8HMW0V0QNmWP3g
+2022-04-17 08:10:00 [schedule-pool-6] INFO  c.r.s.s.i.SysLogininforServiceImpl - <0><1515482675032096768> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  c.r.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 08:15:12 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 08:15:16 [main] INFO  com.fzshuai.OloasApplication - Starting fzshuaiApplication using Java 1.8.0_311 on FZSHUAI with PID 28360 (F:\Idea Project\oloas-back\fzshuai-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 08:15:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 08:15:16 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 08:15:18 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 08:15:19 [redisson-netty-2-2] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 08:15:19 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 08:15:19 [main] INFO  c.fzshuai.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 08:15:19 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 08:15:19 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 08:15:20 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 08:15:20 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 08:15:20 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 08:15:20 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 08:15:22 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 08:15:22 [main] INFO  c.r.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 08:15:22 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 08:15:22 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 08:15:22 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 08:15:22 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 08:15:23 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 08:15:23 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 08:15:24 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 08:15:24 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 08:15:24 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 08:15:24 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 08:15:24 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 08:15:26 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 08:15:26 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 08:15:26 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 08:15:26 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 08:15:27 [main] INFO  com.fzshuai.OloasApplication - Started fzshuaiApplication in 11.517 seconds (JVM running for 12.463)
+2022-04-17 08:15:27 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 08:15:27 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 08:15:27 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 08:15:27 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 08:15:27 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 08:15:27 [main] INFO  c.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 08:15:27 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 08:15:27 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 08:15:28 [RMI TCP Connection(9)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  c.r.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 08:39:38 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 10:12:32 [main] INFO  com.fzshuai.OloasApplication - Starting fzshuaiApplication using Java 1.8.0_311 on FZSHUAI with PID 24456 (F:\Idea Project\oloas-back\fzshuai-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 10:12:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 10:12:32 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 10:12:34 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 10:12:34 [redisson-netty-2-2] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:12:34 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:12:34 [main] INFO  c.fzshuai.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 10:12:35 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 10:12:35 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 10:12:36 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 10:12:36 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 10:12:36 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 10:12:36 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 10:12:37 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:12:37 [main] INFO  c.r.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 10:12:37 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:12:38 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 10:12:38 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:12:38 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:12:38 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:12:38 [main] INFO  o.f.c.e.i.db.CommonDbSchemaManager - performing create on common with resource org/flowable/common/db/create/flowable.mysql.create.common.sql
+2022-04-17 10:12:38 [main] INFO  o.f.c.e.i.db.CommonDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:39 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Creating database history table with name: oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Table FLW_EVENT_DEPLOYMENT created
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Table FLW_EVENT_RESOURCE created
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Table FLW_EVENT_DEFINITION created
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Index ACT_IDX_EVENT_DEF_UNIQ created
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Table FLW_CHANNEL_DEFINITION created
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Index ACT_IDX_CHANNEL_DEF_UNIQ created
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::1::flowable ran successfully in 76ms
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Columns TYPE_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Columns IMPLEMENTATION_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::2::flowable ran successfully in 22ms
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - Set Channel Definition type and implementation columns
+2022-04-17 10:12:39 [main] INFO  liquibase.changelog - ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::3::flowable ran successfully in 47ms
+2022-04-17 10:12:39 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 10:12:39 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 10:12:39 [main] INFO  o.f.i.s.i.d.IdentityLinkDbSchemaManager - performing create on identitylink with resource org/flowable/identitylink/service/db/create/flowable.mysql.create.identitylink.sql
+2022-04-17 10:12:39 [main] INFO  o.f.i.s.i.d.IdentityLinkDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:39 [main] INFO  o.f.i.s.i.d.IdentityLinkDbSchemaManager - performing create on identitylink.history with resource org/flowable/identitylink/service/db/create/flowable.mysql.create.identitylink.history.sql
+2022-04-17 10:12:39 [main] INFO  o.f.i.s.i.d.IdentityLinkDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.e.s.i.d.EntityLinkDbSchemaManager - performing create on entitylink with resource org/flowable/entitylink/service/db/create/flowable.mysql.create.entitylink.sql
+2022-04-17 10:12:40 [main] INFO  o.f.e.s.i.d.EntityLinkDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.e.s.i.d.EntityLinkDbSchemaManager - performing create on entitylink.history with resource org/flowable/entitylink/service/db/create/flowable.mysql.create.entitylink.history.sql
+2022-04-17 10:12:40 [main] INFO  o.f.e.s.i.d.EntityLinkDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.e.s.i.d.EventSubscriptionDbSchemaManager - performing create on eventsubscription with resource org/flowable/eventsubscription/service/db/create/flowable.mysql.create.eventsubscription.sql
+2022-04-17 10:12:40 [main] INFO  o.f.e.s.i.d.EventSubscriptionDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.t.s.impl.db.TaskDbSchemaManager - performing create on task with resource org/flowable/task/service/db/create/flowable.mysql.create.task.sql
+2022-04-17 10:12:40 [main] INFO  o.f.t.s.impl.db.TaskDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.t.s.impl.db.TaskDbSchemaManager - performing create on task.history with resource org/flowable/task/service/db/create/flowable.mysql.create.task.history.sql
+2022-04-17 10:12:40 [main] INFO  o.f.t.s.impl.db.TaskDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.v.s.i.db.VariableDbSchemaManager - performing create on variable with resource org/flowable/variable/service/db/create/flowable.mysql.create.variable.sql
+2022-04-17 10:12:40 [main] INFO  o.f.v.s.i.db.VariableDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.v.s.i.db.VariableDbSchemaManager - performing create on variable.history with resource org/flowable/variable/service/db/create/flowable.mysql.create.variable.history.sql
+2022-04-17 10:12:40 [main] INFO  o.f.v.s.i.db.VariableDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:40 [main] INFO  o.f.j.s.impl.db.JobDbSchemaManager - performing create on job with resource org/flowable/job/service/db/create/flowable.mysql.create.job.sql
+2022-04-17 10:12:40 [main] INFO  o.f.j.s.impl.db.JobDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:41 [main] INFO  o.f.b.s.impl.db.BatchDbSchemaManager - performing create on batch with resource org/flowable/batch/service/db/create/flowable.mysql.create.batch.sql
+2022-04-17 10:12:41 [main] INFO  o.f.b.s.impl.db.BatchDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:41 [main] INFO  o.f.e.impl.db.ProcessDbSchemaManager - performing create on engine with resource org/flowable/db/create/flowable.mysql.create.engine.sql
+2022-04-17 10:12:41 [main] INFO  o.f.e.impl.db.ProcessDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:43 [main] INFO  o.f.e.impl.db.ProcessDbSchemaManager - performing create on history with resource org/flowable/db/create/flowable.mysql.create.history.sql
+2022-04-17 10:12:43 [main] INFO  o.f.e.impl.db.ProcessDbSchemaManager - Found MySQL: majorVersion=8 minorVersion=0
+2022-04-17 10:12:43 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 10:12:43 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 10:12:45 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 10:12:45 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 10:12:45 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 10:12:45 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 10:12:46 [main] INFO  com.fzshuai.OloasApplication - Started fzshuaiApplication in 14.64 seconds (JVM running for 15.534)
+2022-04-17 10:12:46 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 10:12:46 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 10:12:46 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 10:12:46 [main] INFO  c.r.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 10:12:46 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 10:12:46 [main] INFO  c.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 10:12:46 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 10:12:46 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 10:12:47 [RMI TCP Connection(3)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  c.r.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 10:13:45 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 10:14:41 [main] INFO  com.fzshuai.OloasApplication - Starting fzshuaiApplication using Java 1.8.0_311 on FZSHUAI with PID 23536 (F:\Idea Project\oloas-back\fzshuai-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 10:14:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 10:14:41 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 10:14:43 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 10:14:43 [redisson-netty-2-7] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:14:43 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:14:43 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 10:14:44 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 10:21:29 [main] INFO  com.fzshuai.OloasApplication - Starting fzshuaiApplication using Java 1.8.0_311 on FZSHUAI with PID 26144 (F:\Idea Project\oloas-back\fzshuai-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 10:21:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 10:21:29 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 10:21:31 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 10:21:31 [redisson-netty-2-1] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:21:31 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:21:31 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 10:21:32 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 10:21:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 10:21:33 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 10:21:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 10:21:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 10:21:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 10:21:34 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:21:34 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 10:21:35 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:21:35 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 10:21:35 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:21:35 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:21:36 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:21:36 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 10:21:36 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 10:21:36 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 10:21:36 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 10:21:36 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 10:21:36 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 10:21:38 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 10:21:38 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 10:21:38 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 10:21:38 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 10:21:39 [main] INFO  com.fzshuai.OloasApplication - Started fzshuaiApplication in 10.388 seconds (JVM running for 11.14)
+2022-04-17 10:21:39 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 10:21:39 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 10:21:39 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 10:21:39 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 10:21:39 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 10:21:39 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 10:21:39 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 10:21:39 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 10:21:39 [RMI TCP Connection(1)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 10:24:55 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515516627759493120> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiSWpIYnl0aGxicGptS2w0OVpRS2EzUkc1YlFsTVREcWIifQ.MlRSbRVG1RUn5m6BmipZc0mMN1jGX8HMW0V0QNmWP3g
+2022-04-17 10:25:01 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1515516651235012608> [127.0.0.1]内网IP[admin][Error][验证码错误]
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 10:27:25 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 10:27:28 [main] INFO  com.fzshuai.OloasApplication - Starting fzshuaiApplication using Java 1.8.0_311 on FZSHUAI with PID 13828 (F:\Idea Project\oloas-back\fzshuai-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 10:27:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 10:27:28 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 10:27:30 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 10:27:31 [redisson-netty-2-2] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:27:31 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:27:31 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 10:27:31 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 10:27:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 10:27:32 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 10:27:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 10:27:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 10:27:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 10:27:34 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:27:34 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 10:27:34 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:27:34 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 10:27:34 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:27:34 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:27:35 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:27:35 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 10:27:35 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 10:27:35 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 10:27:35 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 10:27:36 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 10:27:36 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 10:27:37 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 10:27:37 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 10:27:37 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 10:27:37 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 10:27:38 [main] INFO  com.fzshuai.OloasApplication - Started fzshuaiApplication in 10.201 seconds (JVM running for 11.04)
+2022-04-17 10:27:38 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 10:27:38 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 10:27:38 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 10:27:38 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 10:27:38 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 10:27:38 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 10:27:38 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 10:27:38 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 10:27:39 [RMI TCP Connection(5)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 10:32:28 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515518524897648640> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiS21TYlBKdW5RSkpUc1JSYUw3bGJBbXZPYkRzRzhveDgifQ.hUroVpjvwfegOga2G38f_fac15vLnzlaKQfXPpTkGL0
+2022-04-17 10:32:28 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1515518524897648640> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 10:34:13 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 10:48:26 [main] INFO  com.fzshuai.OloasApplication - Starting fzshuaiApplication using Java 1.8.0_311 on FZSHUAI with PID 17780 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 10:48:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 10:48:26 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 10:48:28 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 10:48:29 [redisson-netty-2-8] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:48:29 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 10:48:29 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 10:48:29 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 10:48:29 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 10:48:30 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 10:48:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 10:48:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 10:48:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 10:48:32 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:48:32 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 10:48:32 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 10:48:32 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 10:48:32 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:48:32 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:48:33 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 10:48:33 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 10:48:34 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 10:48:34 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 10:48:34 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 10:48:34 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 10:48:34 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 10:48:35 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 10:48:35 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 10:48:35 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 10:48:35 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 10:48:36 [main] INFO  com.fzshuai.OloasApplication - Started fzshuaiApplication in 10.443 seconds (JVM running for 11.578)
+2022-04-17 10:48:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 10:48:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 10:48:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 10:48:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 10:48:36 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 10:48:36 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 10:48:36 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 10:48:36 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 10:48:37 [RMI TCP Connection(3)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 10:50:04 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515522956414758912> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiS21TYlBKdW5RSkpUc1JSYUw3bGJBbXZPYkRzRzhveDgifQ.hUroVpjvwfegOga2G38f_fac15vLnzlaKQfXPpTkGL0
+2022-04-17 10:50:13 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515522991969873920> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiSUg1SnhpOUx4eElJanhmZW83T21Wejd5SkZqcVBMdjkifQ.-FXEFdHMMGT_GqP_5LXReR78tagaUFPCwb3S2FHGKtE
+2022-04-17 10:50:13 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1515522991969873920> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 15:11:48 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 15:49:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 15:53:31 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 28764 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 15:53:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 15:53:31 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 15:53:33 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 15:53:33 [redisson-netty-2-8] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 15:53:33 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 15:53:34 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 15:53:34 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 15:53:34 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 15:53:35 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 15:53:35 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 15:53:35 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 15:53:35 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 15:53:36 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 15:53:36 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 15:53:36 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 15:53:37 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 15:53:37 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 15:53:37 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 15:53:37 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 15:53:38 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 15:53:38 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 15:53:38 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 15:53:38 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 15:53:38 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 15:53:38 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 15:53:40 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 15:53:40 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 15:53:40 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 15:53:40 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 15:53:41 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.082 seconds (JVM running for 10.81)
+2022-04-17 15:53:41 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 15:53:41 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 15:53:41 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 15:53:41 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 15:53:41 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 15:53:41 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 15:53:41 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 15:53:41 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 15:53:42 [RMI TCP Connection(3)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 15:55:11 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515599739499679744> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiSUg1SnhpOUx4eElJanhmZW83T21Wejd5SkZqcVBMdjkifQ.-FXEFdHMMGT_GqP_5LXReR78tagaUFPCwb3S2FHGKtE
+2022-04-17 15:55:15 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515599756096540672> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiZ2RSZTJVZW01V3JXUktxQUt4Z3hjRFVuZHBOc2plNHoifQ.RwG_PyTtOkDfQVaey61TVk8yHm-9i486sxrlFmtO7ns
+2022-04-17 15:55:15 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1515599756096540672> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-04-17 15:59:27 [XNIO-1 task-2] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - <0><1515600816668250112> 发布刷新OSS配置 => aliyun
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 16:07:22 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 16:07:26 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 20276 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 16:07:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 16:07:26 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 16:07:28 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 16:07:29 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 16:07:29 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 16:07:29 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 16:07:29 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 16:07:29 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 16:07:30 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 16:07:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 16:07:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 16:07:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 16:07:32 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 16:07:32 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 16:07:32 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 16:07:32 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 16:07:32 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 16:07:32 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 16:07:33 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 16:07:33 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 16:07:33 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 16:07:33 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 16:07:33 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 16:07:33 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 16:07:33 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 16:07:35 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 16:07:35 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 16:07:35 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 16:07:35 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 16:07:36 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.08 seconds (JVM running for 10.847)
+2022-04-17 16:07:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 16:07:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 16:07:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 16:07:36 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 16:07:36 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 16:07:36 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 16:07:36 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 16:07:36 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 16:07:37 [RMI TCP Connection(2)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 16:10:48 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 16:10:52 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 14228 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 16:10:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 16:10:52 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 16:10:54 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 16:10:55 [redisson-netty-2-7] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 16:10:55 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 16:10:55 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 16:10:55 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 16:10:55 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 16:10:56 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 16:10:56 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 16:10:56 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 16:10:56 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 16:10:57 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 16:10:57 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 16:10:58 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 16:10:58 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 16:10:58 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 16:10:58 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 16:10:59 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 16:10:59 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 16:10:59 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 16:10:59 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 16:10:59 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 16:10:59 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 16:10:59 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 16:11:01 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 16:11:01 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 16:11:01 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 16:11:01 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 16:11:02 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 9.735 seconds (JVM running for 10.577)
+2022-04-17 16:11:02 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 16:11:02 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 16:11:02 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 16:11:02 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 16:11:02 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 16:11:02 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 16:11:02 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 16:11:02 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 16:11:02 [RMI TCP Connection(1)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 20:54:29 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 20:54:35 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 29096 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 20:54:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 20:54:35 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 20:54:37 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 20:54:38 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 20:54:38 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 20:54:38 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 20:54:38 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 20:54:38 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 20:54:39 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 20:54:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 20:54:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 20:54:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 20:54:40 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 20:54:40 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 20:54:40 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 20:54:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 20:54:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 20:54:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 20:54:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 20:54:42 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 20:54:42 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 20:54:42 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 20:54:42 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 20:54:42 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 20:54:42 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 20:54:44 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 20:54:44 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 20:54:44 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 20:54:44 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 20:54:45 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 9.964 seconds (JVM running for 10.7)
+2022-04-17 20:54:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 20:54:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 20:54:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 20:54:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 20:54:45 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 20:54:45 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 20:54:45 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 20:54:45 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 20:54:46 [RMI TCP Connection(3)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:14:03 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:14:07 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 18732 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:14:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:14:07 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:14:09 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:14:09 [redisson-netty-2-8] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:14:09 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:14:09 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:14:10 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:14:10 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:14:11 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:14:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:14:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:14:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:14:12 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:14:12 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:14:12 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:14:13 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:14:13 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:14:13 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:14:13 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:14:14 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:14:14 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:14:14 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:14:14 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:14:14 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:14:14 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:14:16 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:14:16 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:14:16 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:14:16 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:14:17 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 9.971 seconds (JVM running for 10.732)
+2022-04-17 21:14:17 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:14:17 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:14:17 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:14:17 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:14:17 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:14:17 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:14:17 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:14:17 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:14:17 [RMI TCP Connection(3)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:19:07 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:22:54 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 13716 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:22:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:22:54 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:22:56 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:22:57 [redisson-netty-2-6] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:22:57 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:22:57 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:22:57 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:22:57 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:22:58 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:22:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:22:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:22:58 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:23:00 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:23:00 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:23:00 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:23:00 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:23:00 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:23:00 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:23:01 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:23:01 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:23:02 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:23:02 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:23:02 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:23:02 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:23:02 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:23:03 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:23:03 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:23:03 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:23:04 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:23:04 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.502 seconds (JVM running for 11.34)
+2022-04-17 21:23:04 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:23:04 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:23:04 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:23:04 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:23:04 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:23:04 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:23:04 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:23:05 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:23:05 [RMI TCP Connection(2)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:35:24 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:35:27 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 26328 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:35:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:35:27 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:35:29 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:35:29 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:35:29 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:35:29 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:35:30 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:35:30 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:35:31 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:35:31 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:35:31 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:35:31 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:35:32 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:35:32 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:35:32 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:35:33 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:35:33 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:35:33 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:35:33 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:35:34 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:35:34 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:35:34 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:35:34 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:35:34 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:35:34 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:35:36 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:35:36 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:35:36 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:35:36 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:35:37 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.457 seconds (JVM running for 11.225)
+2022-04-17 21:35:37 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:35:37 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:35:37 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:35:37 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:35:37 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:35:37 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:35:37 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:35:37 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:35:38 [RMI TCP Connection(7)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:35:38 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:35:41 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 17352 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:35:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:35:41 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:35:42 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:35:43 [redisson-netty-2-1] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:35:43 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:35:43 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:35:43 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:35:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:35:44 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:35:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:35:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:35:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:35:46 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:35:46 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:35:46 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:35:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:35:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:35:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:35:47 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:35:47 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:35:48 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:35:48 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:35:48 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:35:48 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:35:48 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:35:49 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:35:49 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:35:49 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:35:49 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:35:50 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 9.969 seconds (JVM running for 10.711)
+2022-04-17 21:35:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:35:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:35:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:35:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:35:50 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:35:50 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:35:50 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:35:50 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:35:51 [RMI TCP Connection(1)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:46:05 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:46:08 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 28368 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:46:08 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:46:08 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:46:10 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:46:11 [redisson-netty-2-8] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:46:11 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:46:11 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:46:11 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:46:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:46:12 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:46:12 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:46:12 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:46:12 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:46:13 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:46:13 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:46:14 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:46:14 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:46:14 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:46:14 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:46:15 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:46:15 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:46:15 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:46:15 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:46:15 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:46:15 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:46:15 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:46:17 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:46:17 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:46:17 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:46:17 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:46:18 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.092 seconds (JVM running for 10.84)
+2022-04-17 21:46:18 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:46:18 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:46:18 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:46:18 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:46:18 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:46:18 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:46:18 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:46:18 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:46:18 [RMI TCP Connection(1)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:46:37 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:46:40 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 25140 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:46:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:46:40 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:46:42 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:46:42 [redisson-netty-2-8] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:46:42 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:46:43 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:46:43 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:46:43 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:46:44 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:46:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:46:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:46:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:46:45 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:46:45 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:46:45 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:46:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:46:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:46:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:46:46 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:46:47 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:46:47 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:46:47 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:46:47 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:46:47 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:46:47 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:46:49 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:46:49 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:46:49 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:46:49 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:46:50 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 9.906 seconds (JVM running for 10.654)
+2022-04-17 21:46:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:46:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:46:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:46:50 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:46:50 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:46:50 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:46:50 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:46:50 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:46:50 [RMI TCP Connection(1)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:47:20 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:47:23 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 26256 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:47:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:47:23 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:47:25 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:47:25 [redisson-netty-2-8] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:47:25 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:47:25 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:47:26 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:47:26 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:47:27 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:47:27 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:47:27 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:47:27 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:47:28 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:47:28 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:47:28 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:47:29 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:47:29 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:47:29 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:47:29 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:47:30 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:47:30 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:47:30 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:47:30 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:47:30 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:47:30 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:47:32 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:47:32 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:47:32 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:47:32 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:47:33 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.314 seconds (JVM running for 11.074)
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-04-17 21:47:33 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-04-17 21:47:36 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 27632 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-04-17 21:47:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+2022-04-17 21:47:36 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-04-17 21:47:37 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-04-17 21:47:38 [redisson-netty-2-7] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:47:38 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-04-17 21:47:38 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-04-17 21:47:38 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-04-17 21:47:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-04-17 21:47:39 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-04-17 21:47:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-04-17 21:47:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-04-17 21:47:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-04-17 21:47:41 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:47:41 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-04-17 21:47:41 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-04-17 21:47:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-04-17 21:47:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:47:41 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:47:42 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-04-17 21:47:42 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-04-17 21:47:43 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-04-17 21:47:43 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-04-17 21:47:43 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-04-17 21:47:43 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-04-17 21:47:43 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-04-17 21:47:44 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-04-17 21:47:44 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-04-17 21:47:44 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-04-17 21:47:44 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-04-17 21:47:45 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 10.136 seconds (JVM running for 10.874)
+2022-04-17 21:47:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-04-17 21:47:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-04-17 21:47:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-04-17 21:47:45 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-04-17 21:47:45 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-04-17 21:47:45 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-04-17 21:47:45 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-04-17 21:47:46 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-04-17 21:47:46 [RMI TCP Connection(1)-172.36.137.55] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 21:49:03 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515688795453628416> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiZ2RSZTJVZW01V3JXUktxQUt4Z3hjRFVuZHBOc2plNHoifQ.RwG_PyTtOkDfQVaey61TVk8yHm-9i486sxrlFmtO7ns
+2022-04-17 21:49:09 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1515688816743915520> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiOFBOb0xjUG9IZ3pmRHExTVNFRUF1YlhRMGYxdjU1ZDEifQ.HImHd4v0SIcfvxSlQxAd0z1N_-YM-T2sr8UG6sYVpx0
+2022-04-17 21:49:09 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1515688816743915520> [127.0.0.1]内网IP[admin][Success][登录成功]

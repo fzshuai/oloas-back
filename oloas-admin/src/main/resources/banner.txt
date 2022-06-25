@@ -1,0 +1,7 @@
+_____________ ______________________
+__  __ \__  / __  __ \__    |_  ___/
+_  / / /_  /  _  / / /_  /| |____ \
+/ /_/ /_  /___/ /_/ /_  ___ |___/ /
+\____/ /_____/\____/ /_/  |_/____/
+
+${AnsiColor.GREEN} :: fzshuai :: ${AnsiColor.BLUE} OLOAS: ${AnsiColor.RED}${spring.profiles.active}${AnsiColor.BRIGHT_WHITE} :: Application Version: ${oloas.version} ${spring-boot.formatted-version}

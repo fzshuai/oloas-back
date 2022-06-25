@@ -1,0 +1,64 @@
+2022-05-05 11:18:13 [XNIO-1 task-6] INFO  c.f.f.listener.UserActionListener - <0><1522053022326013952> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiY0hUelV5UTVKZGd2SzdsZFduUWVVQjZKU2lZOGQySTcifQ.z5cpGpXXuCJH7iYEfQWQlGgzEu_Mr-1xVNPAPH2NNMk
+2022-05-05 11:18:18 [XNIO-1 task-6] INFO  c.f.f.listener.UserActionListener - <0><1522053041011638272> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoidXhDcGNkeExtdUxJWnROZGthMk5CR05CNmtCRnNlbDMifQ.i0ozHRT9LnovX41cIk9a0EWyBF5jPS8GUWYGjuHNg8E
+2022-05-05 11:18:18 [schedule-pool-2] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1521859502898233344> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-05 11:53:42 [XNIO-1 task-5] INFO  c.f.f.listener.UserActionListener - <0><1522061951432998912> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoidXhDcGNkeExtdUxJWnROZGthMk5CR05CNmtCRnNlbDMifQ.i0ozHRT9LnovX41cIk9a0EWyBF5jPS8GUWYGjuHNg8E
+2022-05-05 11:53:48 [XNIO-1 task-5] INFO  c.f.f.listener.UserActionListener - <0><1522061978331070464> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiMVByOUNCYm5ZWUxPOTM2Qm9IR0FTenJmcGZmSlBNTTAifQ.ON1LP3AZPiI4QQYLbkpMoox2eu-t-0Ksyp-Tq8fyYQQ
+2022-05-05 11:53:48 [schedule-pool-7] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1522061978331070464> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-05 16:59:43 [XNIO-1 task-4] INFO  c.f.f.listener.UserActionListener - <0><1522138961991778304> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiMVByOUNCYm5ZWUxPOTM2Qm9IR0FTenJmcGZmSlBNTTAifQ.ON1LP3AZPiI4QQYLbkpMoox2eu-t-0Ksyp-Tq8fyYQQ
+2022-05-05 16:59:47 [XNIO-1 task-4] INFO  c.f.f.listener.UserActionListener - <0><1522138980358635520> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiS2hMNGZVSG9PYzF4SEhZajRuN1ZTOXN2d2F6RE93TzcifQ.NlJN4oSTNI8C-u3Flehzk87LhCV3dE-kkYPo8J-RF3c
+2022-05-05 16:59:47 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1521846734837071872> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-05 18:09:04 [XNIO-1 task-5] INFO  c.f.f.listener.UserActionListener - <0><1522156415698681856> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiS2hMNGZVSG9PYzF4SEhZajRuN1ZTOXN2d2F6RE93TzcifQ.NlJN4oSTNI8C-u3Flehzk87LhCV3dE-kkYPo8J-RF3c
+2022-05-05 18:09:08 [XNIO-1 task-5] INFO  c.f.f.listener.UserActionListener - <0><1522156432761110528> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoidjFJamFzMW5OdVN6UkR5RzdIT0tidUVrYkcyOXRDTFgifQ.LHES4-k_Uw3OnVpg_KSlf0k2J6-kRfJ57JGjPZREWlk
+2022-05-05 18:09:08 [schedule-pool-5] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1521859900576972800> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-05 19:17:33 [XNIO-1 task-4] INFO  c.f.f.listener.UserActionListener - <0><1522173651633127424> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoidjFJamFzMW5OdVN6UkR5RzdIT0tidUVrYkcyOXRDTFgifQ.LHES4-k_Uw3OnVpg_KSlf0k2J6-kRfJ57JGjPZREWlk
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.17.Final
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-05-05 19:19:56 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-05-05 19:20:03 [main] INFO  com.fzshuai.OloasApplication - Starting OloasApplication using Java 1.8.0_311 on FZSHUAI with PID 20008 (F:\Idea Project\oloas-back\oloas-admin\target\classes started by fzshuai in F:\Idea Project\oloas-back)
+2022-05-05 19:20:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-05 19:20:03 [main] INFO  com.fzshuai.OloasApplication - The following 1 profile is active: "dev"
+2022-05-05 19:20:05 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2022-05-05 19:20:06 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-05-05 19:20:06 [redisson-netty-2-3] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.75.128/192.168.75.128:6379
+2022-05-05 19:20:06 [main] INFO  c.f.framework.config.RedisConfig - 初始化 redis 配置
+2022-05-05 19:20:06 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-05 19:20:07 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-05-05 19:20:07 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-05-05 19:20:07 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-05-05 19:20:07 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-05-05 19:20:07 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-05-05 19:20:09 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2022-05-05 19:20:09 [main] INFO  c.f.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-05-05 19:20:09 [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2022-05-05 19:20:09 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Found 1 Engine Configurators in total:
+2022-05-05 19:20:09 [main] INFO  o.f.s.SpringProcessEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-05-05 19:20:09 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-05-05 19:20:10 [main] INFO  o.f.s.SpringProcessEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2022-05-05 19:20:10 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2022-05-05 19:20:11 [main] INFO  liquibase.changelog - Reading from oloas_fzs.FLW_EV_DATABASECHANGELOG
+2022-05-05 19:20:11 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2022-05-05 19:20:11 [main] INFO  o.f.e.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2022-05-05 19:20:11 [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2022-05-05 19:20:11 [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2022-05-05 19:20:12 [main] INFO  io.undertow - starting server: Undertow - 2.2.17.Final
+2022-05-05 19:20:12 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-05 19:20:12 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-05 19:20:12 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-05 19:20:13 [main] INFO  com.fzshuai.OloasApplication - Started OloasApplication in 9.905 seconds (JVM running for 10.711)
+2022-05-05 19:20:13 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-05-05 19:20:13 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-05-05 19:20:13 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-05-05 19:20:13 [main] INFO  c.f.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-05-05 19:20:13 [main] INFO  com.fzshuai.oss.factory.OssFactory - 初始化OSS工厂
+2022-05-05 19:20:13 [main] INFO  c.f.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-05-05 19:20:13 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-05-05 19:20:13 [main] INFO  c.f.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-05-05 19:20:14 [RMI TCP Connection(1)-172.36.137.210] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 19:20:23 [XNIO-1 task-1] INFO  c.f.f.listener.UserActionListener - <0><1522174359530913792> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiQVNUS3VOMThneEIyZDlhSW5tM0pMVTJwMDV2Z0VQaGwifQ.PTD0V5Hy_JF680QVBKLGxVAAkdKLiwxFDbSwXl4DO4Q
+2022-05-05 19:20:23 [schedule-pool-1] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1522174359530913792> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-05 21:40:45 [XNIO-1 task-3] INFO  c.f.f.listener.UserActionListener - <0><1522209688895897600> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiQVNUS3VOMThneEIyZDlhSW5tM0pMVTJwMDV2Z0VQaGwifQ.PTD0V5Hy_JF680QVBKLGxVAAkdKLiwxFDbSwXl4DO4Q

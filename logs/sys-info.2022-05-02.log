@@ -1,0 +1,14 @@
+2022-05-02 10:26:28 [XNIO-1 task-4] INFO  c.f.f.listener.UserActionListener - <0><1520952833490100224> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiZEhNNnF6UkpLekN1dVVRakl0UWNzdkpSU0QyV1lRUmoifQ.sZMpXzbTVodxh0MmbbX7MWwfcrCMykdou-2oPRiN_HI
+2022-05-02 10:26:32 [XNIO-1 task-4] INFO  c.f.f.listener.UserActionListener - <0><1520952849747222528> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiNjY3amR2TnVYcGljcGgxVXVlYnhoYkFpMTJ3VWU5ZUUifQ.xgzMjyhOX3j-XeOk8l4t-Niq-e7K3JAUetH6tLSWtpY
+2022-05-02 10:26:32 [schedule-pool-3] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1520770236260622336> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-02 12:33:44 [XNIO-1 task-3] INFO  c.f.f.listener.UserActionListener - <0><1520984863506505728> user doLogout, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiNjY3amR2TnVYcGljcGgxVXVlYnhoYkFpMTJ3VWU5ZUUifQ.xgzMjyhOX3j-XeOk8l4t-Niq-e7K3JAUetH6tLSWtpY
+2022-05-02 12:33:49 [XNIO-1 task-3] INFO  c.f.f.listener.UserActionListener - <0><1520984883169402880> user doLogin, useId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoibWowZWNNMVZybVhQRk8xWnZaTG5hU0xEb2oxbFQ5Q1gifQ.j1FMtbAQSB37LZf8zC7cnIqy1vfLS_vAWanaqhCwrGo
+2022-05-02 12:33:49 [schedule-pool-2] INFO  c.f.s.s.i.SysLogininforServiceImpl - <0><1520769587657646080> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-05-02 22:30:22 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.17.Final
+2022-05-02 22:30:22 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-02 22:30:23 [SpringApplicationShutdownHook] INFO  c.f.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-05-02 22:30:23 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-05-02 22:30:23 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-05-02 22:30:23 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-05-02 22:30:23 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-05-02 22:30:23 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
